@@ -1,8 +1,9 @@
-﻿namespace Smartwyre.DeveloperTest.Types;
+﻿using Smartwyre.DeveloperTest.Types.Entities;
 
-public class RebateCalculation
+namespace Smartwyre.DeveloperTest.Types;
+
+public class RebateCalculation : BaseEntity
 {
-    public int Id { get; set; }
     public string Identifier { get; set; }
     public string RebateIdentifier { get; set; }
     public IncentiveType IncentiveType { get; set; }

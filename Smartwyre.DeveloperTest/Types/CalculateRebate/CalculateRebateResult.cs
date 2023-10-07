@@ -1,4 +1,4 @@
-﻿namespace Smartwyre.DeveloperTest.Types;
+﻿namespace Smartwyre.DeveloperTest.Types.CalculateRebate;
 
 public class CalculateRebateResult
 {

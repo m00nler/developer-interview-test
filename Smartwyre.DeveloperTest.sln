@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smartwyre.DeveloperTest.Run
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smartwyre.DeveloperTest.Tests", "Smartwyre.DeveloperTest.Tests\Smartwyre.DeveloperTest.Tests.csproj", "{579DD8AE-7BEA-45BC-B46A-FE9F071BFDE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smartwyre.DeveloperTest.Configuration", "Smartwyre.DeveloperTest.Configuration\Smartwyre.DeveloperTest.Configuration.csproj", "{D51D21B3-32B1-478B-A2CD-34B5E9C9C9BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{579DD8AE-7BEA-45BC-B46A-FE9F071BFDE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{579DD8AE-7BEA-45BC-B46A-FE9F071BFDE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{579DD8AE-7BEA-45BC-B46A-FE9F071BFDE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D51D21B3-32B1-478B-A2CD-34B5E9C9C9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D51D21B3-32B1-478B-A2CD-34B5E9C9C9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D51D21B3-32B1-478B-A2CD-34B5E9C9C9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D51D21B3-32B1-478B-A2CD-34B5E9C9C9BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

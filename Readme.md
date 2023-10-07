@@ -24,3 +24,16 @@ The only specific 'rules' are:
 - The tests should all pass
 
 You are free to use any frameworks/NuGet packages that you see fit. You should plan to spend around 1 hour completing the exercise.
+
+
+# Configuration
+DBConnection: 
+- paste connection string to appsettings.json (create it before) as it is on example
+
+To apply migrations to local db:
+ - open terminal
+ - cd Smartwyre.DeveloperTest.Runner
+ - dotnet ef migrations add <name of migration>
+ - paste connection string in terminal prompt
+ - dotnet ef database update
+ - Ready!
